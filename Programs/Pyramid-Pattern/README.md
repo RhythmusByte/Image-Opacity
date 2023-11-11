@@ -2,8 +2,6 @@
 
 This C program takes user input to create a pyramid pattern with numbers.
 
-> For algorithm click here.
-
 ## How to Use
 
 1. Compile the program using a C compiler (e.g., gcc).
@@ -15,21 +13,28 @@ This C program takes user input to create a pyramid pattern with numbers.
 
 The program follows the following algorithm:
 
+```
+Pyramid Number Pattern Program Algorithm:
+
 1. Prompt the user to enter a sequence of numbers.
 2. Determine the length of the input sequence.
-3. Use nested loops to iterate through the input numbers and print a pyramid pattern.
-4. Print each row of the pyramid, starting from the current position in the input sequence.
+3. Use a nested loop structure:
+   a. Outer loop (i) iterates from 0 to the length of the input sequence.
+   b. Inner loop (j) iterates from the current outer loop index (i) to the end of the input sequence.
+   c. Print the current number in the inner loop.
+   d. Move to the next line after each inner loop iteration.
+4. The program will generate a pyramid pattern using the entered numbers.
 
-## Example
+Example Output (for input "12345"):
 
-If the user enters "12345" as input, the program will output:
+12345
+2345
+345
+45
+5
 
-> 12345
-> 2345
-> 345
-> 45
-> 5
-
+```
+---
 
 ## Author
 
