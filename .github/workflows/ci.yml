@@ -1,0 +1,20 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build Pyramid Pattern
+      run: gcc -o Programs/Pyramid-Pattern/pyramidpattern Programs/Pyramid-Pattern/pyramidpattern.c -lm
+
+    - name: Build Scientific Calculator
+      run: gcc -o Programs/Scientific-Calculator/scientificcalculator Programs/Scientific-Calculator/calc.c -lm
