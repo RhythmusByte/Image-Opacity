@@ -2,13 +2,6 @@
 
 This C program takes user input to create a pyramid pattern with numbers.
 
-## How to Use
-
-1. Compile the program using a C compiler (e.g., gcc).
-2. Run the compiled executable.
-3. Enter a sequence of numbers when prompted.
-4. The program will display a pyramid pattern using the entered numbers.
-
 ## Algorithm
 
 The program follows the following algorithm:
