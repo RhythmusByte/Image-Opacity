@@ -29,6 +29,6 @@ Example Output (for input "12345"):
 ```
 ---
 
-## Author
+### Author
 
-RhythmusByte
+[RhythmusByte](https://akhilmahesh.netlify.app)
