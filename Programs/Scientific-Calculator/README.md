@@ -16,7 +16,7 @@ This C program implements a simple scientific calculator with various mathematic
 ## Algorithm
 
 The program follows the following algorithm:
-
+```
 1. Display a menu with options for different mathematical operations.
 2. Take user input for the chosen operation.
 3. Use a switch-case structure to perform the selected mathematical operation:
@@ -34,7 +34,7 @@ Supported Operations:
 - Sine Value
 - Logarithm (base 10)
 - Natural Logarithm (base e)
-
+```
 ## Author
 
 [RhythmusByte](https://akhilmahesh.netlify.app)
