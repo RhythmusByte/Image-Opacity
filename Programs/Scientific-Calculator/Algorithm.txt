@@ -1,0 +1,19 @@
+Scientific Calculator Program Algorithm:
+
+1. Display a menu with options for different mathematical operations.
+2. Take user input for the chosen operation.
+3. Use a switch-case structure to perform the selected mathematical operation:
+   a. Prompt the user for input values if necessary.
+   b. Perform the mathematical operation using functions from the math library.
+   c. Display the result of the operation.
+4. Repeat the process until the user chooses to exit.
+
+Supported Operations:
+- Square Root
+- Square
+- Power
+- Modulus (Absolute Value)
+- Percentage
+- Sine Value
+- Logarithm (base 10)
+- Natural Logarithm (base e)
