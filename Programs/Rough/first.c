@@ -7,5 +7,5 @@ int num(int a, int b, int c) // User defined function
 
 int main()
 {
-        printf("%i\n", num(200, 500, 300));
+        printf("%i\n", num(200, 5000, 300));
 }
