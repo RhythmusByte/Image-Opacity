@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+}
+
+header {
+    background-color: azure;
+    color: black;
+    padding: 20px 0;
+}
+
+.slides {
+  max-width: 100vw;
+}
+
+.slides img {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .slides img {
+    height: 50%;
+  }
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    margin: 10px;
+}
+
+.opacity-100 {
+    opacity: 1;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.opacity-25 {
+    opacity: 0.25;
+}
+
+.animation-container {
+    display: inline-block;
+}
+
+.fade-in:hover {
+    opacity: 0;
+    animation: fadeIn 6s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
